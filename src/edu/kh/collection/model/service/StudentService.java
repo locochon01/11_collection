@@ -41,7 +41,7 @@ public class StudentService {
 		studentList.add(new Student("홍길동", 25, "서울시 중구", 'M',90));
 		studentList.add(new Student("고형희", 23, "경기도 안산시", 'F',88));
 		studentList.add(new Student("김이지", 30, "서울시 강남구", 'F',95));
-		studentList.add(new Student("오미나", 27, "서울시 충북 청주시", 'F',82));
+		studentList.add(new Student("오미나", 27, "충북 청주시", 'F',82));
 		studentList.add(new Student("박주희", 24, "서울시 동작구", 'F',78));
 		
 	}
@@ -208,7 +208,7 @@ public class StudentService {
 			// for(컬렉션 or 배열에서 꺼낸 한개의 요소를 저장할 변수 : 컬렉션명 or 배열명){}
 			for(Student std : studentList) {
 				//std에는 for문 반복 시 마다 0,1,2,...인덱스 요소들을 한 번씩 저장됨
-				System.out.print(((index++)+1) + "번 ");
+				System.out.print((index++) + "번 ");
 				System.out.println(std);
 			}
 			
