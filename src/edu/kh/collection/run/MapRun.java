@@ -7,7 +7,7 @@ public class MapRun {
 	public static void main(String[] args) {
 
 		MapService service = new MapService();
-		service.ex3();
+		service.ex2();
 		
 	}
 

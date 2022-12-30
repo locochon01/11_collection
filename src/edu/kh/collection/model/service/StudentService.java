@@ -259,7 +259,7 @@ public class StudentService {
 				System.out.print("사는 곳: ");
 				String region = sc.nextLine();
 				
-				System.out.print("성별(M/F):" );
+				System.out.print("성별(M/F): ");
 				char gender = sc.next().charAt(0); // String -> char
 				
 				System.out.print("점수: ");
